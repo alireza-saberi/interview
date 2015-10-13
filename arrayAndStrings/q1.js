@@ -2,7 +2,7 @@
 // Ask if the string is in ASCII or in Unicode
 
 // optimization : return false in the length of string is greater than length of available characters!
-
+//O(n)
 function solution1(A){
 	var counter = {},
 		elm;
@@ -26,3 +26,5 @@ function solution1(A){
 
 A = [4, 3, 5, 6];
 console.log(solution1(A));
+
+// solution2: comparing every character to others in the string This is will O(n2)
