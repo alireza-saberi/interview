@@ -8,3 +8,4 @@ function Stack(){
 		return this.stac.push(item);
 	}
 }
+// If you really want to create a stack object that can only be used as a stack then you have to encapsulate an Array and expose only the push and pop methods.
